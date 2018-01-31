@@ -14,12 +14,17 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'feed.html',
 })
 export class FeedPage {
-
+  public nome_usuario:string = "Tiago O. Ramos";
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  public somaDoisNumeros(numA:number, numB:number): void{
+    alert(numA+numB);
+  }
+
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad FeedPage');
+    this.somaDoisNumeros(10,10);
   }
 
 }
