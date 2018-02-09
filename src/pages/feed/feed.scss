@@ -1,3 +1,13 @@
 page-feed {
-
+    h2.feed_user {
+        color:  red;
+    }
+    
+    p.feed_date {
+        color: blue;
+    }
+    p.feed_descricao {
+        font-weight:  bold;
+        color:  greenyellow;
+    }
 }

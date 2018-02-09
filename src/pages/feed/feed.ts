@@ -18,8 +18,14 @@ export class FeedPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  public user_name:String="Tiago O. Ramos";
+  public texto_img:String= "Esse texto vem de forma dinâmica do banco por exemplo ;)";
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad FeedPage');
   }
+
+
+
 
 }
